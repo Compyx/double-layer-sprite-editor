@@ -5,7 +5,7 @@
 
         FRAME_BORDERCOLOR = $0e
         FRAME_TEXTCOLOR   = $0f
-        
+
         FRAME_TOPLEFT     = $70
         FRAME_HORIZONTAL  = $40
         FRAME_TOPRIGHT    = $6e

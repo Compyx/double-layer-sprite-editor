@@ -3,7 +3,6 @@
 ; Simple double layer sprite editor: one mc sprite and one sc sprite on top
 ;
 ; @author:      Bas Wassink <b.wassink@ziggo.nl>
-; @updated:     2016-04-07
 
 
         GETIN = $ffe4
@@ -17,7 +16,7 @@
         * = $0801
 
         .word (+), 2016
-        .null $9e, ^start
+        .null $9e, format("%d", start)
 +       .word 0
 
 start

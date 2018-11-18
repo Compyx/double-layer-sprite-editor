@@ -227,11 +227,11 @@ update_zoom_info
 
 
 info_text
-        .enc screen
+        .enc "screen"
         ;      0123456789abcdef
         .text " Double layer   "
         .text " sprite editor  "
-        .text "2016, Cpx/Focus "
+        .text "2016-18, CPX/FC "
         .text "                "
         .text "1: ", $a0, "  ($d027)   "
         .text "2: ", $a0, $a0, " ($d028)   "

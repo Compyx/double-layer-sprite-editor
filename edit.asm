@@ -557,24 +557,24 @@ clear_all
 
 DL_YESNO .macro
         ; "(yes/no)" with white 'y' and 'n'
-        .enc screen
+        .enc "screen"
         .text "(", $f1, "Y", $ff, "es/", $f1, "N", $ff, "o)", 0
         .endm
 
 DL_ANYKEY .macro
-        .enc screen
+        .enc "screen"
         "(press any key)"
         .endm
 
 
 clr_spr_text
-        .enc screen
+        .enc "screen"
         .text "Clear current sprite? "
         .DL_YESNO
 
 
 clr_all_text
-        .enc screen
+        .enc "screen"
         .text "Clear all sprites? "
         .DL_YESNO
 
